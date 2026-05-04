@@ -15,8 +15,8 @@ from tensorflow.keras.utils import to_categorical
 
 
 # Step 2: Load Dataset (Direct URL - No kagglehub needed)
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data"
-df = pd.read_csv(url, header=None)
+
+df = pd.read_csv("C:/Users/asus/Downloads/archive (1)/letter-recognition.csv")
 
 # Assign column names
 columns = ['letter'] + [f'feature_{i}' for i in range(1, 17)]
