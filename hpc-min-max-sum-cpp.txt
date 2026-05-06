@@ -42,3 +42,26 @@
     cout << "The average is: " << average(arr, n) << '\n';
     return 0;
   }
+
+
+
+
+//How to run in Vs Code -
+// g++ -fopenmp HPC2.cpp -o HPC2.exe                                                  
+//.\HPC2.exe               
+
+
+//In eclipse -
+// Build project 
+// Run 
+
+
+create folder name with roll no and inside it roolno.cpp
+
+cd Desktop
+cd B400430268
+g++ -fopenmp B400430268.cpp -o B400430268
+./B400430268
+
+
+
